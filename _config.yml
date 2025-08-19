@@ -23,9 +23,6 @@ social:
     link: "https://orcid.org/0009-0002-1654-8161"
   - icon: zenodo
     link: "https://zenodo.org/search?q=Knoechelman%2C%20Joshua"
-  # You can add other links here if you want, for example:
-  # - icon: github
-  #   link: "https://github.com/srvapors"
 
 keywords: Resonant Dark Universe, Chronos Field, Timeless Physics, Cosmology, Theoretical Physics, Aumons, Dark Resonator Core
 lang: en
@@ -53,7 +50,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib # We will create this file next
+  bibliography: papers.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -142,3 +139,4 @@ sass:
 enable_math: true # enables math typesetting (uses MathJax)
 enable_darkmode: true # enables switching between light/dark modes
 enable_progressbar: true # enables a horizontal progress bar
+enable_tooltips: false # disables the table of contents feature that was causing the build error
